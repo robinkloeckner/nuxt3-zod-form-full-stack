@@ -1,4 +1,4 @@
-import { formSchema } from "~/utils/Validators";
+import { formSchema } from "~/shared/utils/validators";
 
 // Define POST contact endpoint.
 export default defineEventHandler(async (event) => {

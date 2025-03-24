@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import type { FormData, FormErrors } from "~/utils/Validators";
+import type { FormData, FormErrors } from "~/shared/utils/validators";
+import { formSchema } from "~/shared/utils/validators";
 import { z } from "zod";
 
 // Init form data and error messages.
